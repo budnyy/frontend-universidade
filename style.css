@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightblue;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    color: green;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    background-color: rgb(59, 146, 175);
+    color: white;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-flow: column nowrap;
+}
+
+.space-grotesk-h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#footer{
+    text-decoration:underline;
+}
+
+[texto="noDecoration"]{
+    text-decoration: none;
+}
